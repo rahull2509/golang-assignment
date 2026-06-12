@@ -1,0 +1,10 @@
+{
+  "name": "copy-readme",
+  "type": "copy_file",
+  "payload": {
+    "source": "README.md",
+    "destination": "/tmp/readme-copy.md"
+  },
+  "timeout_seconds": 5,
+  "max_retries": 0
+}

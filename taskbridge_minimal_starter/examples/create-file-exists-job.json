@@ -1,0 +1,9 @@
+{
+  "name": "check-readme-exists",
+  "type": "file_exists",
+  "payload": {
+    "path": "README.md"
+  },
+  "timeout_seconds": 5,
+  "max_retries": 0
+}

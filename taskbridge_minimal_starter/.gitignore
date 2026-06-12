@@ -1,0 +1,21 @@
+/bin/
+*.exe
+*.test
+*.out
+.DS_Store
+
+# Coverage
+coverage.out
+coverage.html
+
+# SQLite
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

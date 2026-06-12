@@ -1,0 +1,8 @@
+{
+  "id": "agent-demo-1",
+  "hostname": "demo-workstation",
+  "os": "linux",
+  "arch": "amd64",
+  "version": "1.0.0",
+  "capabilities": ["http_check", "tcp_check", "file_exists", "checksum", "copy_file", "write_file", "wait"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "checksum-readme",
+  "type": "checksum",
+  "payload": {
+    "path": "README.md"
+  },
+  "timeout_seconds": 10,
+  "max_retries": 0
+}
