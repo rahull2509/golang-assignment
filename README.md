@@ -298,3 +298,23 @@ curl -s http://localhost:8080/agents | jq
 ## License
 
 This project is part of a Go internship assignment.
+
+## Screenshots
+
+### 1. Basic Server
+![Basic Server](docs/screenshots/01_basic_server.png)
+
+### 2. Basic Agent
+![Basic Agent](docs/screenshots/02_basic_agent.png)
+
+### 3. Job Lifecycle & Retries
+![Job Lifecycle and Retries](docs/screenshots/03_job_retries.png)
+
+### 4. Multiple Job Types
+![Multiple Job Types](docs/screenshots/04_multiple_job_types.png)
+
+### 5. Agent Heartbeat & Online/Offline Status
+![Agent Offline Status](docs/screenshots/05_agent_offline.png)
+
+### 6. Testing & Documentation
+![Testing and Coverage](docs/screenshots/06_testing_coverage.png)
