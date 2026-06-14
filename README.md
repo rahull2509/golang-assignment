@@ -284,6 +284,32 @@ curl -s http://localhost:8080/jobs | jq
 curl -s http://localhost:8080/agents | jq
 ```
 
+## Demo Video
+
+### YouTube Demo
+
+https://youtu.be/gJXdS8gwR2E
+
+### Google Drive Demo
+
+https://drive.google.com/file/d/14l6bNEzxYdWBjuvB8TR94SwaqSo1tOcI/view?usp=sharing
+
+This demo video showcases:
+
+* Server startup
+* Agent registration and heartbeat
+* Health endpoint verification
+* Job creation and execution
+* Multiple supported job types
+* Job lifecycle tracking
+* Agent polling and scheduling
+* End-to-end TaskBridge workflow
+
+## Additional Documentation
+
+* DEMO_GUIDE.md — Step-by-step project execution and demonstration guide.
+* TaskBridge_Milestone_Report_With_Screenshots.docx — Milestone evidence document containing console screenshots and explanations.
+
 ## Design Decisions
 
 1. **Standard library only** — no external HTTP frameworks (Gin/Echo/Chi) to demonstrate Go fundamentals
@@ -298,23 +324,3 @@ curl -s http://localhost:8080/agents | jq
 ## License
 
 This project is part of a Go internship assignment.
-
-## Screenshots
-
-### 1. Basic Server
-![Basic Server](docs/screenshots/01_basic_server.png)
-
-### 2. Basic Agent
-![Basic Agent](docs/screenshots/02_basic_agent.png)
-
-### 3. Job Lifecycle & Retries
-![Job Lifecycle and Retries](docs/screenshots/03_job_retries.png)
-
-### 4. Multiple Job Types
-![Multiple Job Types](docs/screenshots/04_multiple_job_types.png)
-
-### 5. Agent Heartbeat & Online/Offline Status
-![Agent Offline Status](docs/screenshots/05_agent_offline.png)
-
-### 6. Testing & Documentation
-![Testing and Coverage](docs/screenshots/06_testing_coverage.png)
